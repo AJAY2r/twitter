@@ -26,10 +26,16 @@ module Twitter
         request.url "reverse_geocode.json", options
       end.body
     end
+    
+    def similar_places(options={})
+      results = connection.get do |request|
+        request.url "similar_places.json", options
+      end.body
+    end
 
     def self.client; self.new end
 
-    def_delegators :client, :place, :search, :reverse_geocode
+    def_delegators :client, :place, :search, :reverse_geocode, :similar_places
 
     def connection
       headers = {

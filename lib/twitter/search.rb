@@ -25,6 +25,11 @@ module Twitter
       @query[:q] << "#{exclude ? "-" : ""}to:#{user}"
       self
     end
+    
+    def place(placeid, exclude=false)
+      @query[:q] << "#{exclude ? "-" : ""}place:#{placeid}"
+      self
+    end
 
     def referencing(user, exclude=false)
       @query[:q] << "#{exclude ? "-" : ""}@#{user}"
