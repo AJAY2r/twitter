@@ -311,7 +311,7 @@ Any method passing <tt>lite</tt> or <tt>since</tt> parameters will no longer wor
 === 0.1.1 - May 20, 2007
 * {Add support for Hpricot 0.5+}[http://github.com/jnunemaker/twitter/commit/4aa2fabaa62c60e9f11f29510db10b6ed406e510] (@erebor[http://twitter.com/#!/erebor] is the man!)
 
-=== 0.1.0 - March 31, 2007
+=== 0.2.0 - March 31, 2007
 * {Add <tt>Base#d</tt> method}[http://github.com/jnunemaker/twitter/commit/13e031f8d2e8db6ca8ace18a25886fb690d580d2]
 * {Add <tt>Base#direct_messages</tt> method}[http://github.com/jnunemaker/twitter/commit/0f4d699a5310dc8a4e2997b82853f5466292b320]
 * {Add <tt>Base#featured</tt> and <tt>Base#friends_for</tt> methods}[http://github.com/jnunemaker/twitter/commit/21ca95ffa3f42aaf7728c3d5c2aa5f1f9ed84fe7]
